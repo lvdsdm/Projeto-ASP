@@ -1,7 +1,7 @@
 # =====================================================================
 # GEMEO DIGITAL - DISJUNTOR DE ALTA TENSAO (Ficha B8, foco termico)
 # Rede hospedeira: UEA-4 Barras (rede_hospedeira.py, template oficial)
-# Camada 3 (dados): curva_carga_24h.csv + curva_de_carga_24h_sobrecarga.csv + vcb_sensor_data.csv
+# Camada 3 (dados): curva_carga_24h.csv + curva_de_carga_24h_sobrecarga.csv
 # =====================================================================
 import os
 import pandas as pd

@@ -53,7 +53,7 @@ def diagnosticar(i_ka, i_nominal_ka, theta_ambiente_c, theta_medida_c=None):
     # Diagnostico comparativo com sensor
     residuo = None
     alerta_degradacao = False
-    if theta_medida_c is not None and not (isinstance(theta_medida_c, float) and math.isnan(theta_medida_c)):
+    if theta_medida_c is not None:
         residuo = theta_medida_c - theta_hotspot
         if residuo > LIMIAR_DESVIO_RESIDUO_C:
             alerta_degradacao = True
